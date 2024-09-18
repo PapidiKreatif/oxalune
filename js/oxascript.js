@@ -40,7 +40,7 @@ function initializeCountdowns(countdownData) {
 
 // Mengambil JSON dari file
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('/js/oxajs.json')
+    fetch('js/oxajs.json')
         .then(response => response.json())
         .then(data => {
             initializeCountdowns(data);
